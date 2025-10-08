@@ -8,7 +8,8 @@ import (
 	// linkedlist "main/linkedList"
 	// concepts "main/concepts"
 	"fmt"
-	"main/array"
+	"main/bs"
+	// "main/array"
 	// recursion "main/recursion"
 	// sliding "main/slidingWindow"
 	// sort "main/sort"
@@ -179,7 +180,8 @@ func main() {
 	// fmt.Println(array.LeadersInArray([]int{1,2,5,3,1,2}))
 
 	// array.SetZeroes([][]int{[]int{1,1,1} , []int{1,0,1} , []int{1,1,1}})
-	fmt.Println(array.SpiralOrder([][]int{{1,2,3,4} , {5,6,7,8} , {9,10,11,12}})) 
+	// fmt.Println(array.SpiralOrder([][]int{{1,2,3,4} , {5,6,7,8} , {9,10,11,12}})) 
+
 	// fmt.Println(recursion.ClimbStairs(2))
 	// fmt.Println(recursion([]int{10, 2, 3, 4}, 0, 4))
 	// fmt.Println(recursionStr("helo" , 0 , 4))
@@ -203,7 +205,7 @@ func main() {
 	// fmt.Println(arr)
 	// fmt.Println(sliding.SubarraySumPositiveBetter([]int{2,0,0,0,0,0,3} , 3))
 
-
+	fmt.Println(bs.SearchUnique([]int{4,5,6,7,7,7,7,0,1,2,3} , 0))
 
 
 }
