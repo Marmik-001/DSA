@@ -205,7 +205,9 @@ func main() {
 	// fmt.Println(arr)
 	// fmt.Println(sliding.SubarraySumPositiveBetter([]int{2,0,0,0,0,0,3} , 3))
 
-	fmt.Println(bs.SearchUnique([]int{4,5,6,7,7,7,7,0,1,2,3} , 0))
-
+	// fmt.Println(bs.SearchUnique([]int{4,5,6,7,7,7,7,0,1,2,3} , 0))
+	// fmt.Println(bs.Sqrt(1))
+	// fmt.Println(bs.MinEatingSpeed([]int{312884470} , 312884469))
+	fmt.Println(bs.MinDaysToMake([]int{7,7,7,7,12,7,7} , 2, 3))
 
 }
