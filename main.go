@@ -208,6 +208,14 @@ func main() {
 	// fmt.Println(bs.SearchUnique([]int{4,5,6,7,7,7,7,0,1,2,3} , 0))
 	// fmt.Println(bs.Sqrt(1))
 	// fmt.Println(bs.MinEatingSpeed([]int{312884470} , 312884469))
-	fmt.Println(bs.MinDaysToMake([]int{7,7,7,7,12,7,7} , 2, 3))
+	// fmt.Println(bs.MinDaysToMake([]int{7,7,7,7,12,7,7} , 2, 3))
+	// fmt.Println(bs.FindSmallestDivisorGreaterOrEqualToThresold([]int{1,2,5,9} , 6))
+	fmt.Println(bs.ShipWithInDays([]int{3,2,2,4,1,4} , 3 ))
+	mp := make(map[int]int)
+	mp[3^2] = 10
+	if j , ok := mp[0] ; ok {
 
+		fmt.Println(j)
+	}
+	fmt.Println(mp)
 }
